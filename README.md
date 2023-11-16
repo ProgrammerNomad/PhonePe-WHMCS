@@ -23,16 +23,16 @@ Staging:
 
 | Name           |Value                                                  |
 |----------------|-------------------------------------------------------|
-| Production URL | https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1 |
+| Merchant Id    | PGTESTPAYUAT                                          |
 | Salt Key       | 099eb0cd-02cf-4e2a-8aca-3e6c6aff0399                  |
 | Salt Index     | 1                                                     |
-| Merchant Id    | PGTESTPAYUAT                                          |
+| Production URL | https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1 |
 
 Production:
 
 | Name           |Value                                      |
 |----------------|-------------------------------------------|
-| Production URL | https://api.phonepe.com/apis/hermes/pg/v1 |
+| Merchant Id    | Ask PhonePe Support                       |
 | Salt Key       | Ask PhonePe Support                       |
 | Salt Index     | Ask PhonePe Support                       |
-| Merchant Id    | Ask PhonePe Support                       |
+| Production URL | https://api.phonepe.com/apis/hermes/pg/v1 |
