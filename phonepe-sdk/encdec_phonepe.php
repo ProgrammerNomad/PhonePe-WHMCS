@@ -31,7 +31,7 @@ function generateCheckSum($data)
     return $checksum;
 }
 
-function callApi($prodUrl, $data)
+function callPhonePeApi($prodUrl, $data)
 {
     $curl = curl_init();
 

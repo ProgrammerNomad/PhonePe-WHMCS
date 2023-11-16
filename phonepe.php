@@ -72,7 +72,7 @@ function phonepe_link($params)
         'checkSumValue' => $checkSumValue
     );
 
-    $url = callApi($ProductionUrl.'/pay', $apiData);
+    $url = callPhonePeApi($ProductionUrl.'/pay', $apiData);
 
     $htmlOutput = '<form method="post" action="' . $url . '">';
     $htmlOutput .= '<input type="submit" value="Pay Now" />';
@@ -121,7 +121,7 @@ function phonepe_refund($params)
         'checkSumValue' => $checkSumValue
     );
 
-    $url = callApi($ProductionUrl.'/refund', $apiData);
+    $url = callPhonePeApi($ProductionUrl.'/refund', $apiData);
 
 
     return array(
