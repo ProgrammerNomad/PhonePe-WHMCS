@@ -17,7 +17,7 @@ Provide the values for the following in the *Configuration Settings* of the Admi
  3. Salt Index
  4. Production Url
 
-# PhonePe PG URL Details
+# PhonePe PG Configuration Details
 
 Staging:
 
